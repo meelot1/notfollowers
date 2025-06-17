@@ -1,8 +1,9 @@
 # 📊 NotFollowers - Instagram Follower Analysis Tool
 
-[![Python](https://img.shields.io/badge/Python-3.6+-blue.svg)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Instagram](https://img.shields.io/badge/Instagram-Data%20Analysis-E4405F.svg)](https://www.instagram.com)
+[![Python](https://img.shields.io/badge/Python-3.6+-blue.svg?style=flat)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat)](LICENSE)
+[![Instagram](https://img.shields.io/badge/Instagram-@meelo1-E4405F.svg?style=flat&logo=instagram&logoColor=white)](https://instagram.com/meelo1)
+
 
 > **Discover who doesn't follow you back on Instagram** 🔍
 
@@ -12,7 +13,6 @@ A Python script that analyzes your Instagram data to identify users you follow w
 
 - 🎯 **Accurate Analysis** - Compare followers vs following lists
 - 📁 **Multiple Outputs** - Generate organized text files for each category  
-- 🎨 **Colorful Interface** - Beautiful terminal output with colors
 - 🚀 **Fast Processing** - Efficient regex-based username extraction
 - 📝 **Detailed Logging** - Track the entire process with informative messages
 
