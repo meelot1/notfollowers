@@ -12,6 +12,13 @@ def banner():
  | |\  | (_) | |_| | | (_) | | | (_) \ V  V |  __| |  \__ \
  |_| \_|\___/ \__|_|  \___/|_|_|\___/ \_/\_/ \___|_|  |___/
 """ + "by: @meelo1".center(59))
+    
+    # Agregar disclaimer de privacidad
+    print(Fore.YELLOW + "\n" + "="*60)
+    print(Fore.YELLOW + "📋 DISCLAIMER: Educational use only")
+    print(Fore.YELLOW + "🔒 Uses only your official Instagram data")
+    print(Fore.YELLOW + "✅ Complies with Instagram TOS")
+    print(Fore.YELLOW + "="*60)
 
 def extraer_usuarios(ruta_html, nombre_archivo_salida):
     print(f"\n[INFO] Cargando archivo: {ruta_html}")
@@ -42,8 +49,8 @@ def main():
     print("[START] INICIO DEL PROCESO DE COMPROBACIÓN DE FOLLOWERS")
     print("="*50)
 
-    ruta_followers = r"C:\Users\Meelo\Desktop\notfollowers\followers.html"
-    ruta_following = r"C:\Users\Meelo\Desktop\notfollowers\following.html"
+    ruta_followers = r"C:\Users\NAME\Desktop\notfollowers\followers.html" ## Change this path according to your file
+    ruta_following = r"C:\Users\NAME\Desktop\notfollowers\following.html" ## Change this path according to your file
 
     followers = extraer_usuarios(ruta_followers, "followers.txt")
     following = extraer_usuarios(ruta_following, "following.txt")
