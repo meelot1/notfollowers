@@ -136,7 +136,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**Created by [@meelo1](https://github.com/meelo1)**
+**Created by [@meelot1](https://github.com/meelot1)**
 
 ---
 
